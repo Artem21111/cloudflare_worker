@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    return new Response("world", {
+    return new Response("HI world", {
       headers: { "Content-Type": "text/plain" },
     });
   },
