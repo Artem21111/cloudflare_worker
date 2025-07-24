@@ -6,6 +6,14 @@ route = "mysite.testgitlab.fun/hello"
 zone_id = "b412c78f3c9067ad3b2031bc5a589456" 
 main = "hello.js"
 
+[env.world]
+compatibility_date = "2025-07-24"
+name = "world"
+account_id = "22515b0bf495afe8f9c365a38f4ad6b9"
+route = "mysite.testgitlab.fun/world"
+zone_id = "b412c78f3c9067ad3b2031bc5a589456"
+main = "world.js"
+
 [env.google_redirect]
 compatibility_date = "2025-07-23"
 name = "google_redirect"
