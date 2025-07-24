@@ -1,0 +1,23 @@
+[env.hello]
+compatibility_date = "2025-07-22"
+name = "hello"
+account_id = "22515b0bf495afe8f9c365a38f4ad6b9"
+route = "mysite.testgitlab.fun/hello" 
+zone_id = "b412c78f3c9067ad3b2031bc5a589456" 
+main = "hello.js"
+
+[env.google_redirect]
+compatibility_date = "2025-07-23"
+name = "google_redirect"
+account_id = "22515b0bf495afe8f9c365a38f4ad6b9"
+route = "mysite.testgitlab.fun/*"
+zone_id = "b412c78f3c9067ad3b2031bc5a589456"
+main = "redirect_google.js"
+
+[env.prosto]
+compatibility_date = "2025-07-22"
+name = "prosto"
+account_id = "22515b0bf495afe8f9c365a38f4ad6b9"
+route = "mysite.testgitlab.fun/prosto"
+zone_id = "b412c78f3c9067ad3b2031bc5a589456"
+main = "prostotak.js"
